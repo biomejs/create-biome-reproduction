@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2025-06-17
+### Details
+#### <!-- 1 -->🐛 Bug Fixes
+- Update config template so that it's valid for both v1 and v2 by @dyc3 in [#6](https://github.com/biomejs/create-biome-reproduction/pull/6)
+
+#### <!-- 2 -->🚜 Refactor
+- Update the variable name of `publishRepo` handling by @chansuke
+- Move the assignment of `isPublishRepo` closer to its usage by @chansuke
+- Avoid magic number by @chansuke
+- S/isPublishRepo/shouldPublishRepo/ by @chansuke
+
 ## [0.2.0] - 2024-08-07
 ### Details
 #### <!-- 0 -->🚀  Features
