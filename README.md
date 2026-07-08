@@ -18,3 +18,4 @@ pnpm create @biomejs/reproduction
 
 # Using bun
 bun create @biomejs/reproduction
+```
